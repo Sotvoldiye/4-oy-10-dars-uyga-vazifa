@@ -35,6 +35,11 @@
   color: #5E607A;
 }
 
+.link__active:hover{
+color: #F15D51;
+transition: all 0.3s ;
+}
+
 .main__container {
 }
 
@@ -78,9 +83,9 @@
   color: #5E607A;
   margin-bottom: 28px;
 }
-.text__button {
-
- 
+.text__button a:hover{
+ background-color: #00001A; 
+ transition: all 0.3s;
 }
 
 .text__button a{
@@ -166,7 +171,14 @@
   font-weight: 800;
   font-size: 18px;
   line-height:24px;
+  margin-top: 12px;
 }
+
+.title:hover{
+  color: #F15D51;
+  transition: all 0.3s;
+}
+
 .text {
   font-weight: 400;
   font-size: 15px;
